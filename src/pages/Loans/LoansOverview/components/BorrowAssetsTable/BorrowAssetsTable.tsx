@@ -60,7 +60,6 @@ const BorrowAssetsTable = ({ assets, onRowAction, ...props }: BorrowAssetsTableP
             rewards={borrowReward}
             prices={prices}
             isBorrow
-            negativeApy
             // TODO: temporary until we find why row click is being ignored
             onClick={() => onRowAction?.(currency.ticker as Key)}
           />
